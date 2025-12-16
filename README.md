@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="/SnapCode.png" alt="SnapCode Logo" width="250" />
+  <img src="SnapCode.png" alt="SnapCode Logo" width="250" />
   <br />
   <h1>SnapCode</h1>
   <p>
