@@ -23,29 +23,17 @@ const LANGUAGES = [
 
 const DEFAULT_CODE = {
   javascript: `console.log("Hello, World!");
-console.log("Enter your name:");
-// You can use input in the right pane`,
+// Enter the input here.`,
   python: `print("Hello, World!")
 name = input("Enter your name: ")
-print(f"Hello, {name}!")`,
+print(f"Hello, {name}!")
+# Enter the input here.`,
   java: `public class Main {
     public static void main(String[] args) {
         System.out.println("Hello, World!");
     }
-}`,
-  cpp: `#include <iostream>
-using namespace std;
-
-int main() {
-    cout << "Hello, World!" << endl;
-    return 0;
-}`,
-  c: `#include <stdio.h>
-
-int main() {
-    printf("Hello, World!\\n");
-    return 0;
-}`,
+}
+// Enter the input here.`,
   rust: `fn main() {
     println!("Hello, World!");
 }`,
@@ -444,7 +432,7 @@ export default function CodeEditor() {
             <h1
               className={`text-1xl font-semibold tracking-tight ${isDarkMode ? "text-white" : "text-gray-900"}`}
             >
-              Coditor
+              SnapCode
             </h1>
           </div>
 

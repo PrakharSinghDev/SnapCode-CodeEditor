@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
+  <img src="./logo.png" alt="SnapCode Logo" width="250" />
+  <br />
+  <h1>SnapCode</h1>
+  <p>
+    <b>A minimalist, high-performance online code editor and compiler.</b>
+  </p>
+  <p>
+    <a href="https://www.typescriptlang.org/">
+      <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+    </a>
+    <a href="https://reactjs.org/">
+      <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+    </a>
+    <a href="LICENSE">
+      <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License" />
+    </a>
+  </p>
+</div>
 
-## Getting Started
+---
 
-First, run the development server:
+**SnapCode** leverages the **Piston API** to provide secure, sandboxed execution for over 50 programming languages instantly from your browser, without complex backend infrastructure.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* **Multi-Language Support:** Compile and run C++, Python, Java, JavaScript, Rust, Go, and 40+ others.
+* **Minimalist UI:** Distraction-free coding environment.
+* **Instant Execution:** Fast, sandboxed output powered by Piston.
+* **Type-Safe:** Built with robust TypeScript architecture.
+* **Syntax Highlighting:** Clean, readable code editor interface.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* **Frontend:** React / Next.js
+* **Language:** TypeScript
+* **Compiler Engine:** [Piston API](https://github.com/engineer-man/piston)
+* **Styling:** Tailwind CSS
 
-## Learn More
+## 📦 Getting Started
 
-To learn more about Next.js, take a look at the following resources:
+Follow these steps to run SnapCode locally.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Prerequisites
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* Node.js (v18+)
+* npm or yarn
 
-## Deploy on Vercel
+### Installation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1.  **Clone the repository**
+    ```bash
+    git clone [https://github.com/yourusername/snapcode.git](https://github.com/yourusername/snapcode.git)
+    cd snapcode
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2.  **Install dependencies**
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
+
+3.  **Run the development server**
+    ```bash
+    npm run dev
+    # or
+    yarn dev
+    ```
+
+4.  Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## ⚙️ Configuration
+
+SnapCode uses the public Piston API by default. If you want to use a self-hosted instance of Piston, update the API endpoint in your environment variables:
+
+1.  Create a `.env.local` file.
+2.  Add your Piston URL:
+    ```env
+    NEXT_PUBLIC_PISTON_API_URL=[https://your-piston-instance.com](https://your-piston-instance.com)
+    ```
+
+## 🤝 Contributing
+
+Contributions are welcome! Please fork the repo and submit a pull request.
+
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE` for more information.

@@ -6,7 +6,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Coditor",
+  title: "SnapCode",
   description:
     "A minimalist online code editor and compiler with multi-language support",
 };
