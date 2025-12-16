@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./logo.png" alt="SnapCode Logo" width="250" />
+  <img src="./SnapCode.png" alt="SnapCode Logo" width="250" />
   <br />
   <h1>SnapCode</h1>
   <p>
@@ -9,22 +9,19 @@
     <a href="https://www.typescriptlang.org/">
       <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
     </a>
-    <a href="https://reactjs.org/">
-      <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-    </a>
-    <a href="LICENSE">
-      <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License" />
+    <a href="https://nextjs.org/">
+      <img src="https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
     </a>
   </p>
 </div>
 
 ---
 
-**SnapCode** leverages the **Piston API** to provide secure, sandboxed execution for over 50 programming languages instantly from your browser, without complex backend infrastructure.
+**SnapCode** uses the **Piston API** to provide secure, sandboxed execution for multiple programming languages instantly from your browser, without complex backend infrastructure.
 
 ## 🚀 Features
 
-* **Multi-Language Support:** Compile and run C++, Python, Java, JavaScript, Rust, Go, and 40+ others.
+* **Multi-Language Support:** Compile and run C, C++, Python, Java, JavaScript, Rust, Go.
 * **Minimalist UI:** Distraction-free coding environment.
 * **Instant Execution:** Fast, sandboxed output powered by Piston.
 * **Type-Safe:** Built with robust TypeScript architecture.
@@ -32,12 +29,15 @@
 
 ## 🛠️ Tech Stack
 
-* **Frontend:** React / Next.js
+* **Frontend:** Next.js
 * **Language:** TypeScript
 * **Compiler Engine:** [Piston API](https://github.com/engineer-man/piston)
 * **Styling:** Tailwind CSS
 
-## 📦 Getting Started
+
+
+
+<!-- ## 📦 Getting Started
 
 Follow these steps to run SnapCode locally.
 
@@ -86,4 +86,4 @@ Contributions are welcome! Please fork the repo and submit a pull request.
 
 ## 📄 License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License. See `LICENSE` for more information. -->
